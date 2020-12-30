@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.nium.qa.util.ExtentReporterNG" />
+	</listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.nium.qa.testcases.PaymentmethodpageTest"/>
+      <class name="com.nium.qa.testcases.PersonalPageTest"/>
+      <class name="com.nium.qa.testcases.SigninPageTest"/>
+      <class name="com.nium.qa.testcases.SelfieuploadPageTest"/>
+      <class name="com.nium.qa.testcases.DocumentuploadPageTest"/>
+      <class name="com.nium.qa.testcases.SendmoneyPageTest"/>
+      <class name="com.nium.qa.testcases.AddnewRecipientpageTest"/>
+      <class name="com.nium.qa.testcases.LoginPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
